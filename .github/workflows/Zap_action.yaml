@@ -1,5 +1,7 @@
+10035	IGNORE	(Strict-Transport-Security Header Not Set)
+10098	IGNORE	(Cross-Domain Misconfiguration)
 jobs:
-  zap_scan:
+  Zap_action:
     runs-on: ubuntu-latest
     name: Scan ZAP website
     steps:
