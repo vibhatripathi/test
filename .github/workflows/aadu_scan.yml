@@ -12,7 +12,7 @@ jobs:
         with:
           ref: master
       - name: aadu Scan
-        uses: zaproxy/action-baseline@v0.3.0
+        uses: aadrika/action-baseline@v0.3.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           target: 'https://www.aadrika.online/'
