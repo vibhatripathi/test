@@ -17,4 +17,5 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           target: 'https://www.zaproxy.org/'
           rules_file_name: 'test/rules.tsv'
-          cmd_options: '-a'
+          cmd_options: '-a' #additional baseline command-line options via the cmd_options parameter. 
+          #For example passing -a as a command-line argument will include the alpha passive scan rules as well.
